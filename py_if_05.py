@@ -23,18 +23,13 @@ Znak je *
 height = 10
 symbol = '*'
 
-
-# jelka
-for i in range(height + 1):
-    # ispis praznina -> ' '
-    print(' ' * (height - i), end='')
-    
-    # ispis zvjezdica -> '*'
-    # print(symbol * ((i * 2) - 1))
-    for j in range(i):
-        print(symbol * ((i + 1) - ((j * 2) - 1)), end='')
-
-    print()
+# redovi
+for i in range(1, height + 1):
+    # stupci
+    for j in range(1, (height * 2)):
+        if 
+        print(' ' * int((height / 2) + i), end='')
+        print(symbol * ((j * 2) - 1))
 
 
 # stablo
